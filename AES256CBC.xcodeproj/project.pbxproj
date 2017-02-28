@@ -9,13 +9,9 @@
 /* Begin PBXBuildFile section */
 		7507996A1D9B1A00001A3FF7 /* AES256CBCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750799691D9B1A00001A3FF7 /* AES256CBCTests.swift */; };
 		9E7D2A6E1C6A102A0089227F /* AES256CBC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7D2A631C6A102A0089227F /* AES256CBC.framework */; };
-		9E7D2A871C6A126A0089227F /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D2A861C6A126A0089227F /* AES256CBC.swift */; };
-		9E7D2A881C6A126A0089227F /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D2A861C6A126A0089227F /* AES256CBC.swift */; };
 		9E7D2A8E1C6A17FB0089227F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9E7D2A8D1C6A17E90089227F /* LICENSE */; };
 		9EBCC00A1CA175F700F634FF /* AES256CBC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9EBCC0091CA175E500F634FF /* AES256CBC.podspec */; };
-		AC3AC2E61CA1B10100BBFC58 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D2A861C6A126A0089227F /* AES256CBC.swift */; };
-		AC3AC2E71CA1B10100BBFC58 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D2A861C6A126A0089227F /* AES256CBC.swift */; };
-		AC3AC2E81CA1B10200BBFC58 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D2A861C6A126A0089227F /* AES256CBC.swift */; };
+		E1F41FD81E658223003A1F64 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F41FD71E658223003A1F64 /* AES256CBC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +31,6 @@
 		9E7D2A6D1C6A102A0089227F /* AES256CBCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AES256CBCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7D2A741C6A102A0089227F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E7D2A7D1C6A110A0089227F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		9E7D2A861C6A126A0089227F /* AES256CBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = sources/AES256CBC.swift; sourceTree = "<group>"; };
 		9E7D2A8D1C6A17E90089227F /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9E7D2A8F1C6A184C0089227F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9EB17BBE1D9B99BE009736BE /* Dockerfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Dockerfile; sourceTree = "<group>"; };
@@ -45,6 +40,7 @@
 		AC3AC2751CA1AB5D00BBFC58 /* AES256CBC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AES256CBC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3AC2821CA1ABC200BBFC58 /* AES256CBC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AES256CBC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3AC28F1CA1AC3900BBFC58 /* AES256CBC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AES256CBC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F41FD71E658223003A1F64 /* AES256CBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES256CBC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +133,7 @@
 		9E7D2A851C6A123A0089227F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9E7D2A861C6A126A0089227F /* AES256CBC.swift */,
+				E1F41FD71E658223003A1F64 /* AES256CBC.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -279,7 +275,7 @@
 				TargetAttributes = {
 					9E7D2A621C6A102A0089227F = {
 						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0820;
 					};
 					9E7D2A6C1C6A102A0089227F = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -381,7 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E7D2A871C6A126A0089227F /* AES256CBC.swift in Sources */,
+				E1F41FD81E658223003A1F64 /* AES256CBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +386,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7507996A1D9B1A00001A3FF7 /* AES256CBCTests.swift in Sources */,
-				9E7D2A881C6A126A0089227F /* AES256CBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +393,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC3AC2E61CA1B10100BBFC58 /* AES256CBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +400,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC3AC2E71CA1B10100BBFC58 /* AES256CBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +407,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC3AC2E81CA1B10200BBFC58 /* AES256CBC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +572,7 @@
 		9E7D2A7B1C6A102A0089227F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftyBeaver.AES256CBCTests;
@@ -591,6 +584,7 @@
 		9E7D2A7C1C6A102A0089227F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftyBeaver.AES256CBCTests;
